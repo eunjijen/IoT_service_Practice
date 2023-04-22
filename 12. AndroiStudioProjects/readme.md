@@ -1,7 +1,6 @@
 
 MyGallery 앱
-![image](https://user-images.githubusercontent.com/75493219/233789093-17f2b102-3dc1-4801-b258-f8bb9b82308f.png)
-<img src="[https://user-images.githubusercontent.com/51365114/119627750-716f3100-be47-11eb-8e83-686b23c2c161.png](https://user-images.githubusercontent.com/75493219/233789093-17f2b102-3dc1-4801-b258-f8bb9b82308f.png)  width="200" height="400"/>
+<img src="(https://user-images.githubusercontent.com/75493219/233789093-17f2b102-3dc1-4801-b258-f8bb9b82308f.png)  width="200" height="400"/>
 
 MyWebBrowser2 앱
 ![image](https://user-images.githubusercontent.com/75493219/233789133-74945e93-b142-4b18-8338-26564933e07a.png)
