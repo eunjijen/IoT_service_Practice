@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입 실습</title>
+    <style>
+        table{
+            width:800px;
+            margin:auto;
+        }
+        .mtitle{
+            background-color: deepskyblue;
+            padding:5px;
+            font-size:0.9em;
+            font-weight: bold;
+        }
+        .m1{
+            background-color: rgb(231, 202, 164);
+            width:20%;
+            text-align: right;
+            padding:5px;
+            font-size: 0.9em;
+        }
+        span.msg{
+            color:blue;
+            font-size:0.8em;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <table border="1">
+            <tr>
+                <td colspan="2" class="mtitle">
+                    아이디(ID) 정보
+                </td>
+                <!-- <td></td> -->
+            </tr>
+            <tr>
+                <td class="m1">*아이디</td>
+                <td>
+                    <input type="text" name="userid">
+                    <button type="button">중복검사</button>
+                    <br>
+                    <span class="msg">
+                        (4~12자 영자/숫자 가능, 한글, 특수문자, ID는 사용불가)
+                    </span>
+
+                </td>
+            </tr>
+            <tr>
+                <td class="m1">*비밀번호</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="m1">*비밀번호 확인</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="mtitle">
+                    개인 정보
+                </td>
+                <!-- <td></td> -->
+            </tr>
+            <tr>
+                <td class="m1">*이름(한글)</td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
