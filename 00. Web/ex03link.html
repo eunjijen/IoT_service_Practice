@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex03link.html</title>
+</head>
+<body>
+    <h1>텍스트에 하이퍼링크를 걸어봅시다</h1>
+    <a href="http://www.naver.com">네이버</a>|
+    <a href="http://www.google.com" target="_blank">구글</a>|
+    <a href="http://www.daum.net" title="하이퍼링크에 대한 설명">다음</a>
+    <hr color="red">
+    <h2>문서 내 이동</h2>
+    <a href="ex01.html">내가 만든 문서1</a>
+    <a href="ex02text.html" target="_blank">내가 만든 문서2</a>
+    <a href="images/cat1.JPG">내가만든 문서3</a>
+    <a href="./images/dog1.JPG">내가만든 문서4</a>
+    <!-- 
+        서버의 기준경로가 Web
+        Web/
+           +--images/cat1.JPG
+                     dog1.JPG
+           +--ex03link.html           
+
+        . : 현재파일이 있는 경로를 기준으로 찾으란 의미
+        .. : 현재 보다 한 단계 상위 경로를 의미
+        ../../: 현재 보다 2 단계 상위 경로를 의미
+        
+
+    -->
+
+</body>
+</html>

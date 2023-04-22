@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>홀짝 비교</h1>
+    <script>
+        let num=parseInt(prompt('정수를 입력하세요', 100))
+        //parseInt(): Number()함수와 유사
+        //정수로 변환하는 함수
+        //if문 이용해서 홀수 Odd출력, 짝수Even출력
+        /*
+            if(조건식){
+                참일때 실행할문장
+            }else{
+                거짓
+            }
+        */
+       let str='';
+       if(num%2==0){
+            str=num+"은 Even입니다"
+       }else{
+            str=num+"은 Odd입니다"
+       }
+
+       document.write(`<h1>${str}</h1>`)
+
+    //3항연산자    
+    //변수=(조건식)? 값1: 값2;
+    //조건식이 true면 값1을 변수에 대합하고, false면 값2를 대입한다
+    let str2=(num%2==0)?"짝수":"홀수";
+    document.write(`<h1 style='color:blue'>${num}은 ${str2}</h1>`)   
+
+    //파이썬
+    //변수=값1 if 조건식 else 값2
+
+    </script>
+
+</body>
+</html>

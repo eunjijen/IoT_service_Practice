@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex19css.html</title>
+    <style type="text/css">
+        /* 선택자{속성명1:속성값1; 속성명2:속성값2;} */
+        *{
+            /*  * : 전체 선택자 */
+            color:brown; /*글자색: color속성*/
+        }
+        /* 태그 선택자 : 
+        태그명{}
+         */
+        body{
+            padding: 50px; /*상하좌우 안쪽여백을 50px*/
+            font-family: Verdana, Geneva, Tahoma, sans-serif; /*서체*/
+            /* font-size:13px; */
+            font-size:1.2em; 
+            /* 1em: 16px  (상대적 단위 : em, rem)
+               2em: 32px
+            */
+        } 
+
+        /* b태그를 선택해서 아래와 같이 정의하세요
+            - 글자색: tomato
+            - 글자크기: 알아서
+            - 배경색: background-color: 알아서*/
+        b{
+            color:tomato;
+            font-size:2em;
+            background-color:bisque;
+        }    
+
+        /* p태그 안에 있는 b태그에만 적용하되 
+        테두리속성을 주세요
+        border: 2px dotted 색상 */
+        p b{
+            border: 2px dotted blue;
+            padding: 2px;
+            margin:3px;
+        }
+
+
+    </style>
+</head>
+<body>
+<!-- 
+  [1] style태그로 파일 내부에 정의하는 방법
+  [2] 외부파일에 정의한 뒤 참조하는 방법 (style.css)
+  		<1> link태그로 참조한는 방식
+		<2> import로 참조하는 방식
+  [3] inline style 정의하는 방법
+  -->
+    <div>
+        안녕하세요<br>
+        <b>CSS3.0</b>을 배워봅시다
+        <p>
+            HTML의 보완적 요소가 CSS입니다
+            <b>Hello CSS 3.0</b>
+        </p>
+    </div>
+</body>
+</html>
+<!-- ex19css.html -->
